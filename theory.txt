@@ -4,9 +4,11 @@ git init : inicitialize a new proyect
 git status : to see the state of our files.
 git add : to add a file to your workplace.
 git commit : to  create a starting point of our code.
+git commit -m "commit" : To create a commit in git bash console
 git config --global user.email "email@gmail.com" : To log in the user's email
 git config --global user.name "name" : To identify the userd.
 Esc + : + wq : To log out from vim after the commit.
+Type the letter "i" first on the vim console to type the commit
 git log : to see all the commits we make.
 git checkout -- filename.extention : to revert the changes on the files
 git diff filename.extension : To see the differences between the files.
